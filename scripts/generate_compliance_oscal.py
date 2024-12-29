@@ -89,7 +89,7 @@ def update_poam():
     with open("updated_poam.json", "w") as file:
         json.dump({"POA&M": {"controls": poam_updates}}, file, indent=4)
 
-    print("POA&M updated with scan results!")
+    print("POA&M updated with scan results.")
 
 # Call the function to update POA&M
 update_poam()
