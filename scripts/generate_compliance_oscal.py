@@ -44,7 +44,7 @@ def generate_oscal():
     }
 
     # Write the OSCAL JSON data to a file
-    with open("generated_compliance_oscal.json", "w") as json_file:
+    with open("../output/generated_compliance_oscal.json", "w") as json_file:
         json.dump(oscal_data, json_file, indent=4)
 
 # Run the function to generate the OSCAL file
