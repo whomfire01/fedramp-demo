@@ -55,23 +55,39 @@ generate_compliance_report()
 
 def update_poam():
     # Load vulnerability scan results
-    with open("../vulnerability-scan-results/scan_results.json", "r") as file:
+    with open("vulnerability-scan-results/scan_results.json", "r") as file:
         vulnerabilities = json.load(file)
 
     # Simulate POA&M update
     poam_updates = []
     for vulnerability in vulnerabilities:
         poam_entry = {
-            "Control ID": vulnerability["control_id"],
-            "Vulnerability": vulnerability["vulnerability"],
-            "Risk Level": vulnerability["risk_level"],
-            "Status": "Remediation in Progress" if vulnerability["status"] == "Open" else "Resolved"
+            "control_id": vulnerability["control_id"],
+            "vulnerability": vulnerability["vulnerability"],
+            "risk_level": vulnerability["risk_level"],
+            "status": "Remediation in Progress" if vulnerability["status"] == "Open" else "Resolved",
+            "remediation_plan": "Strengthen password policy to require longer and more complex passwords." if vulnerability["control_id"] == "AC-2" else "Define cryptographic key management process and document procedures.",
+            "milestones": [
+                {
+                    "due_date": "2024-06-30",
+                    "status": "In Progress"
+                },
+                {
+                    "due_date": "2024-09-30",
+                    "status": "Completed"
+                }
+            ] if vulnerability["control_id"] == "AC-2" else [
+                {
+                    "due_date": "2024-07-31",
+                    "status": "In Progress"
+                }
+            ]
         }
         poam_updates.append(poam_entry)
 
     # Write POA&M updates to a new file
     with open("updated_poam.json", "w") as file:
-        json.dump(poam_updates, file, indent=4)
+        json.dump({"POA&M": {"controls": poam_updates}}, file, indent=4)
 
     print("POA&M updated with scan results!")
 
