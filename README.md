@@ -1,4 +1,4 @@
-# FedRAMP OSCAL demo for IBM compliance position
+# FedRAMP OSCAL Demo for IBM Compliance Position
 
 This project is intended to demonstrate Steve Moore's familiarity with OSCAL, JSON, YAML, and Python in the context of automating FedRAMP compliance processes, including generating System Security Plans (SSPs), Plan of Action & Milestones (POA&Ms), and compliance reports.
 
@@ -38,14 +38,15 @@ This project is intended to demonstrate Steve Moore's familiarity with OSCAL, JS
 
 ## Directory Structure
 
-- `oscal-examples/`: Contains sample OSCAL JSON files.
-- `config-examples/`: Contains configuration examples in YAML format.
-- `scripts/`: Contains Python scripts for generating OSCAL files and reports.
+- `oscal/`: Contains OSCAL JSON files demonstrating security controls and compliance examples.
+- `config/`: Contains configuration files for key management and compliance settings.
+- `scripts/`: Contains Python scripts for generating OSCAL files, compliance reports, and updating the POA&M.
 - `vulnerability-scan-results/`: Contains sample vulnerability scan results used to update the POA&M.
 
 ## Dependencies
 
 This project uses Python for automation. The following Python libraries are required:
 - `json` (standard library, no installation needed)
+- `yaml` (installable via `pip install pyyaml`)
 
 To run the script, you need to have Python installed on your machine.
