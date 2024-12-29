@@ -8,7 +8,11 @@ This project is intended to demonstrate Steve Moore's familiarity with OSCAL, JS
 - `config/config-compliance-settings.yaml`: Configuration file for defining compliance-related settings, such as required controls, reporting frequency, and audit logging.
 - `config/config-secure-keys.yaml`: Configuration file for defining secure key management settings, including encryption algorithms, key rotation, and storage locations.
 - `scripts/generate_compliance_oscal.py`: Python script that generates OSCAL JSON files, creates a compliance report, and updates the POA&M based on vulnerability scan results.
-- `vulnerability-scan-results/scan_results.json`: Example vulnerability scan results in JSON format, used to update the POA&M.
+- `output/`: Contains generated files from the Python script, including OSCAL data, compliance reports, and POA&M updates.
+   - `output/compliance_report.txt`: Compliance summary report detailing the status of key controls.
+   - `output/generated_compliance_oscal.json`: OSCAL-compliant JSON file representing security controls.
+   - `output/updated_poam.json`: Updated POA&M file reflecting remediation status based on vulnerability scan results.
+   - `output/vulnerability-scan-results/scan_results.json`: Vulnerability scan results in JSON format, used to update the POA&M.
 
 ## Features
 - **OSCAL Generation**: The script automatically generates an OSCAL-compliant JSON file representing security controls.
