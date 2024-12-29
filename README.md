@@ -10,3 +10,6 @@ This project hopes to demonstrate Steve Moore's familiarity with OSCAL, JSON, an
 ## How to Use
 - Clone the repository.
 - Run `generate_oscal.py` to create an OSCAL JSON file.
+
+## Scripts
+- `scripts/generate_oscal.py`: A Python script to generate a sample OSCAL JSON file (`oscal_output.json`). Run with `python generate_oscal.py`.
