@@ -1,6 +1,6 @@
 # FedRAMP OSCAL Demo
 
-This project demonstrates Steve Moore's familiarity with OSCAL, JSON, YAML, and Python in the context of automating FedRAMP compliance processes, including generating System Security Plans (SSPs), Plan of Action & Milestones (POA&Ms), and compliance reports.
+This project is intended to demonstrate Steve Moore's familiarity with OSCAL, JSON, YAML, and Python in the context of automating FedRAMP compliance processes, including generating System Security Plans (SSPs), Plan of Action & Milestones (POA&Ms), and compliance reports.
 
 ## Files
 
