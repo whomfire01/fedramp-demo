@@ -1,8 +1,7 @@
-controls:
-  - id: AC-2
-    name: Account Management
-    description: "Ensures that user accounts are properly managed."
-    status: implemented
-    evidence:
-      - type: "Audit Log"
-        location: "/var/log/audit.log"
+compliance_settings:
+  required_controls:
+    - AC-2  # Account Management
+    - SC-13 # Cryptographic Key Establishment
+  reporting_frequency: "monthly"
+  logging_enabled: true
+  audit_log_location: "/var/log/compliance_audit.log"
