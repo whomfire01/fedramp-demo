@@ -55,7 +55,7 @@ generate_compliance_report()
 
 def update_poam():
     # Load vulnerability scan results
-    with open("vulnerability-scan-results/scan_results.json", "r") as file:
+    with open("../vulnerability-scan-results/scan_results.json", "r") as file:
         vulnerabilities = json.load(file)
 
     # Simulate POA&M update
