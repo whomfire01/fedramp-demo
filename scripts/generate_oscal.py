@@ -1,14 +1,17 @@
 import json
 
 def generate_oscal():
+    controls = [
+        {"ID": "AC-2", "Name": "Account Management", "Implementation": "Implemented"},
+        {"ID": "SC-13", "Name": "Cryptographic Key Establishment", "Implementation": "Not Implemented"}
+    ]
+    
     oscal_data = {
         "OSCAL": "1.0",
-        "Control": "AC-2",
-        "Description": "Account management control for FedRAMP.",
-        "Implementation": "Implemented",
+        "Controls": controls
     }
 
-    with open("oscal_output.json", "w") as json_file:
+    with open("generated_oscal.json", "w") as json_file:
         json.dump(oscal_data, json_file, indent=4)
 
 if __name__ == "__main__":
