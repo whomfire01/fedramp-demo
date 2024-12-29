@@ -68,7 +68,7 @@ def generate_compliance_report():
     """
 
     # Write the compliance report to a file
-    with open("compliance_report.txt", "w") as report_file:
+    with open("../output/compliance_report.txt", "w") as report_file:
         report_file.write(report_data)
 
     print("Compliance report generated.")
@@ -78,7 +78,7 @@ generate_compliance_report()
 
 def update_poam():
     # Load vulnerability scan results
-    with open("../vulnerability-scan-results/scan_results.json", "r") as file:
+    with open("../output/vulnerability-scan-results/scan_results.json", "r") as file:
         vulnerabilities = json.load(file)
 
     # Simulate POA&M update
@@ -109,7 +109,7 @@ def update_poam():
         poam_updates.append(poam_entry)
 
     # Write POA&M updates to a new file
-    with open("updated_poam.json", "w") as file:
+    with open("../output/updated_poam.json", "w") as file:
         json.dump({"POA&M": {"controls": poam_updates}}, file, indent=4)
 
     print("POA&M updated with scan results.")
