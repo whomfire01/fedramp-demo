@@ -1,0 +1,5 @@
+key_management:
+  - key_id: "ABC123"
+    algorithm: "AES-256"
+    status: "active"
+    rotation_period: "90 days"
