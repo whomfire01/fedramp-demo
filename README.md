@@ -49,7 +49,3 @@ This project uses Python for automation. The following Python libraries are requ
 - `json` (standard library, no installation needed)
 
 To run the script, you need to have Python installed on your machine.
-
-## How to Contribute
-
-Feel free to fork this repository, make changes, and submit pull requests. Contributions are welcome to improve OSCAL automation or add new features like generating reports in different formats or integrating additional compliance tools.
