@@ -53,3 +53,27 @@ def generate_compliance_report():
 # Call the report generation function
 generate_compliance_report()
 
+def update_poam():
+    # Load vulnerability scan results
+    with open("vulnerability-scan-results/scan_results.json", "r") as file:
+        vulnerabilities = json.load(file)
+
+    # Simulate POA&M update
+    poam_updates = []
+    for vulnerability in vulnerabilities:
+        poam_entry = {
+            "Control ID": vulnerability["control_id"],
+            "Vulnerability": vulnerability["vulnerability"],
+            "Risk Level": vulnerability["risk_level"],
+            "Status": "Remediation in Progress" if vulnerability["status"] == "Open" else "Resolved"
+        }
+        poam_updates.append(poam_entry)
+
+    # Write POA&M updates to a new file
+    with open("updated_poam.json", "w") as file:
+        json.dump(poam_updates, file, indent=4)
+
+    print("POA&M updated with scan results!")
+
+# Call the function to update POA&M
+update_poam()
