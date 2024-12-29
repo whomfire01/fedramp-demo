@@ -12,12 +12,12 @@ This project is intended to demonstrate Steve Moore's familiarity with OSCAL, JS
    - `output/compliance_report.txt`: Compliance summary report detailing the status of key controls.
    - `output/generated_compliance_oscal.json`: OSCAL-compliant JSON file representing security controls.
    - `output/updated_poam.json`: Updated POA&M file reflecting remediation status based on vulnerability scan results.
-   - `output/vulnerability-scan-results/scan_results.json`: Vulnerability scan results in JSON format, used to update the POA&M.
+   - `output/vulnerability-scan-results/scan_results.json`: Example vulnerability scan results in JSON format. Results are used by the script to update the POA&M with remediation status and milestones.
 
 ## Features
 - **OSCAL Generation**: The script automatically generates an OSCAL-compliant JSON file representing security controls.
 - **Compliance Report**: A simple compliance report is generated in text format, summarizing the status of key security controls.
-- **POA&M Update**: The script integrates vulnerability scan results (from `scan_results.json`) to automatically update the Plan of Action & Milestones (POA&M) file (`updated_poam.json`), reflecting remediation status based on scan findings.
+- **POA&M Update**: The script integrates vulnerability scan results (from `scan_results.json`) to automatically update the POA&M file (`updated_poam.json`), tracking remediation progress for identified vulnerabilities.
 
 ## How to Use
 1. **Clone the repository**:
