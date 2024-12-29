@@ -1,4 +1,16 @@
 import json
+import yaml
+
+# Function to load and use configurations
+def load_config(config_file):
+    with open(config_file, 'r') as file:
+        config = yaml.safe_load(file)
+    return config
+
+# Example: Load the security key config
+key_config = load_config("config/config-secure-keys.yaml")
+print(key_config)
+
 
 # Function to generate an OSCAL-compliant JSON file
 def generate_oscal():
