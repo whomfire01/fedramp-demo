@@ -1,0 +1,8 @@
+controls:
+  - id: AC-2
+    name: Account Management
+    description: "Ensures that user accounts are properly managed."
+    status: implemented
+    evidence:
+      - type: "Audit Log"
+        location: "/var/log/audit.log"
