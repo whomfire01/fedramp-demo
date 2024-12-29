@@ -4,10 +4,10 @@ This project is intended to demonstrate Steve Moore's familiarity with OSCAL, JS
 
 ## Files
 
-- `oscal-examples/example.oscal.json`: A basic example of an OSCAL control in JSON format.
-- `oscal-examples/example-complex.oscal.json`: A more detailed OSCAL example with multiple controls.
-- `config-examples/example.config.yaml`: A configuration example for managing security controls using YAML.
-- `scripts/generate_compliance_oscal.py`: A Python script that generates OSCAL JSON files, creates a compliance report, and updates the POA&M based on vulnerability scan results.
+- `oscal/oscal-controls.json`: Multiple OSCAL controls in JSON format.
+- `config/config-compliance-settings.yaml`: Configuration file for defining compliance-related settings, such as required controls, reporting frequency, and audit logging.
+- `config/config-secure-keys.yaml`: Configuration file for defining secure key management settings, including encryption algorithms, key rotation, and storage locations.
+- `scripts/generate_compliance_oscal.py`: Python script that generates OSCAL JSON files, creates a compliance report, and updates the POA&M based on vulnerability scan results.
 - `vulnerability-scan-results/scan_results.json`: Example vulnerability scan results in JSON format, used to update the POA&M.
 
 ## Features
