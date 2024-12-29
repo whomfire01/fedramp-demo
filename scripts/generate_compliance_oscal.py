@@ -8,7 +8,7 @@ def load_config(config_file):
     return config
 
 # Example: Load the security key config
-key_config = load_config("config/config-secure-keys.yaml")
+key_config = load_config("../config/config-secure-keys.yaml")
 print(key_config)
 
 
