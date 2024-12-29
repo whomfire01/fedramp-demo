@@ -1,5 +1,7 @@
 key_management:
-  - key_id: "ABC123"
-    algorithm: "AES-256"
-    status: "active"
-    rotation_period: "90 days"
+  encryption_algorithm: "AES-256"
+  key_length: 256
+  key_rotation_period: "90 days"
+  key_storage_location: "/secure/keys"
+  backup: true
+  backup_location: "/secure/keys/backup"
