@@ -1,0 +1,14 @@
+[
+    {
+        "Control ID": "AC-2",
+        "Vulnerability": "Account password is not strong enough.",
+        "Risk Level": "High",
+        "Status": "Remediation in Progress"
+    },
+    {
+        "Control ID": "SC-13",
+        "Vulnerability": "Cryptographic key management process not defined.",
+        "Risk Level": "Medium",
+        "Status": "Remediation in Progress"
+    }
+]

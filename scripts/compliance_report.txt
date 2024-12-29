@@ -1,0 +1,12 @@
+
+    Compliance Summary Report:
+    ---------------------------
+
+    Control AC-2 (Account Management):
+    Status: Implemented
+    Description: Ensure user accounts are properly managed.
+
+    Control SC-13 (Cryptographic Key Establishment):
+    Status: Not Implemented
+    Description: Ensure cryptographic keys are properly established.
+    

@@ -1,0 +1,17 @@
+{
+    "OSCAL": "1.0",
+    "Controls": [
+        {
+            "ID": "AC-2",
+            "Name": "Account Management",
+            "Description": "Ensure user accounts are properly managed.",
+            "Implementation": "Implemented"
+        },
+        {
+            "ID": "SC-13",
+            "Name": "Cryptographic Key Establishment",
+            "Description": "Ensure cryptographic keys are properly established.",
+            "Implementation": "Not Implemented"
+        }
+    ]
+}
