@@ -1,14 +1,36 @@
-[
-    {
-        "Control ID": "AC-2",
-        "Vulnerability": "Account password is not strong enough.",
-        "Risk Level": "High",
-        "Status": "Remediation in Progress"
-    },
-    {
-        "Control ID": "SC-13",
-        "Vulnerability": "Cryptographic key management process not defined.",
-        "Risk Level": "Medium",
-        "Status": "Remediation in Progress"
+{
+    "POA&M": {
+        "controls": [
+            {
+                "control_id": "AC-2",
+                "vulnerability": "Account password is not strong enough.",
+                "risk_level": "High",
+                "status": "Remediation in Progress",
+                "remediation_plan": "Strengthen password policy to require longer and more complex passwords.",
+                "milestones": [
+                    {
+                        "due_date": "2024-06-30",
+                        "status": "In Progress"
+                    },
+                    {
+                        "due_date": "2024-09-30",
+                        "status": "Completed"
+                    }
+                ]
+            },
+            {
+                "control_id": "SC-13",
+                "vulnerability": "Cryptographic key management process not defined.",
+                "risk_level": "Medium",
+                "status": "Remediation in Progress",
+                "remediation_plan": "Define cryptographic key management process and document procedures.",
+                "milestones": [
+                    {
+                        "due_date": "2024-07-31",
+                        "status": "In Progress"
+                    }
+                ]
+            }
+        ]
     }
-]
+}
