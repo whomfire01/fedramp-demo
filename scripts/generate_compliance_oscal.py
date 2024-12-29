@@ -27,4 +27,29 @@ def generate_oscal():
 # Run the function to generate the OSCAL file
 if __name__ == "__main__":
     generate_oscal()
-    print("OSCAL JSON file generated!")
+    print("OSCAL JSON file generated.")
+
+def generate_compliance_report():
+    # Sample report based on the OSCAL data
+    report_data = """
+    Compliance Summary Report:
+    ---------------------------
+
+    Control AC-2 (Account Management):
+    Status: Implemented
+    Description: Ensure user accounts are properly managed.
+
+    Control SC-13 (Cryptographic Key Establishment):
+    Status: Not Implemented
+    Description: Ensure cryptographic keys are properly established.
+    """
+
+    # Write the compliance report to a file
+    with open("compliance_report.txt", "w") as report_file:
+        report_file.write(report_data)
+
+    print("Compliance report generated.")
+
+# Call the report generation function
+generate_compliance_report()
+
