@@ -1,5 +1,6 @@
 import json
 import yaml
+from pprint import pprint  # Import pprint module for better formatting
 
 # Function to load and use configurations
 def load_config(config_file):
@@ -9,7 +10,17 @@ def load_config(config_file):
 
 # Example: Load the security key config
 key_config = load_config("../config/config-secure-keys.yaml")
-print(key_config)
+
+# Neatly print the key configuration
+print("\nKey Management Configuration:")
+pprint(key_config, indent=4)
+
+# Example: Load the compliance settings config
+compliance_config = load_config("../config/config-compliance-settings.yaml")
+
+# Neatly print the compliance configuration
+print("\nCompliance Settings Configuration:")
+pprint(compliance_config, indent=4)
 
 
 # Function to generate an OSCAL-compliant JSON file
