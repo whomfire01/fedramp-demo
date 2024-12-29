@@ -42,8 +42,9 @@ This project is intended to demonstrate Steve Moore's familiarity with OSCAL, JS
 
 ## Directory Structure
 
-- `oscal/`: Contains OSCAL JSON files demonstrating security controls and compliance examples.
 - `config/`: Contains configuration files for key management and compliance settings.
+- `oscal/`: Contains OSCAL JSON files demonstrating security controls and compliance examples.
+- `output/`: Contains generated output from Python script.
 - `scripts/`: Contains Python scripts for generating OSCAL files, compliance reports, and updating the POA&M.
 - `vulnerability-scan-results/`: Contains sample vulnerability scan results used to update the POA&M.
 
