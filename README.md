@@ -1,4 +1,4 @@
-# FedRAMP OSCAL Demo for IBM Compliance Position
+# FedRAMP Demo for IBM Compliance Position
 
 I created this project to showcase my skills in automating FedRAMP compliance using OSCAL, JSON, YAML, and Python. At IBM, keeping up with compliance documentation will be a major challenge, so I built tools to automate Security Plans, POA&Ms, and compliance reports, streamlining what could otherwise be time-consuming manual processes.
  
