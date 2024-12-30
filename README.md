@@ -71,7 +71,7 @@ After cloning this repository, you can test the functionality of the Python scri
    This project uses **Python** and the **PyYAML** library to handle YAML configuration files. To install dependencies, run:
    ```bash
    pip install -r requirements.txt
-(Note: If you don't have a requirements.txt file yet, you can manually install pyyaml via pip install pyyaml.)
+ (Note: If you don't have a requirements.txt file yet, you can manually install pyyaml via pip install pyyaml.)
 
 3. **Run the Python Script**:
    The main script **`generate_compliance_oscal.py`** generates the OSCAL JSON file, the compliance report, and updates the POA&M based on vulnerability scan results. To execute the script:
