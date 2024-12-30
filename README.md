@@ -1,10 +1,13 @@
 # FedRAMP Demo for IBM Compliance Position
 
-I created this project to showcase my skills in automating FedRAMP compliance using OSCAL, JSON, YAML, and Python. At IBM, keeping up with compliance documentation will be a major challenge, so I built tools to automate Security Plans, POA&Ms, and compliance reports, streamlining what could otherwise be time-consuming manual processes.
- 
-By automating these processes based on vulnerability scans, I'm considering how to make compliance both efficient and accurate. The tools I've developed can automatically update documentation when new vulnerabilities are detected, ensuring everything stays current without manual intervention. 
+This project is designed to demonstrate my ability to automate FedRAMP compliance processes, including the generation of System Security Plans (SSPs), Plan of Action & Milestones (POA&Ms), and compliance reports. Given that IBM uses Xacta for managing compliance documentation, I created tools that mimic the type of automated workflows Xacta supports, helping to streamline compliance tasks and ensure that documentation stays up to date without manual intervention.
 
-My hope is that this work aligns with IBM's cloud security goals and demonstrates my ability to handle complex compliance requirements in large-scale environments. I'm particularly focused on making these tools scalable, so they can adapt as our compliance needs grow and change.
+As FedRAMP compliance is an ongoing process requiring frequent updates, I focused on automating documentation generation based on vulnerability scans, ensuring that compliance efforts are both efficient and accurate. This work simulates the kind of automated compliance workflows Xacta enables, particularly in handling vulnerability management and POA&M updates.
+
+I hope the tools I've built here demonstrate my capability to work with Xacta-like workflows, ensuring scalability and efficiency as compliance needs grow. My goal is to help streamline compliance efforts in large-scale environments, aligning with IBM’s focus on cloud security and compliance automation.
+
+– Steve Moore
+
 
 ## Files
 
@@ -19,9 +22,9 @@ My hope is that this work aligns with IBM's cloud security goals and demonstrate
    - `output/vulnerability-scan-results/scan_results.json`: Example vulnerability scan results in JSON format. Results are used by the script to update the POA&M with remediation status and milestones.
 
 ## Features
-- **OSCAL Generation**: The script automatically generates an OSCAL-compliant JSON file representing security controls.
+- **OSCAL Generation**: The script automatically generates an OSCAL-compliant JSON file representing security controls, which aligns with standards like FedRAMP and NIST 800-53.
 - **Compliance Report**: A simple compliance report is generated in text format, summarizing the status of key security controls.
-- **POA&M Update**: The script integrates vulnerability scan results (from `scan_results.json`) to automatically update the POA&M file (`updated_poam.json`), tracking remediation progress for identified vulnerabilities.
+- **POA&M Update**: The script integrates vulnerability scan results (from scan_results.json) to automatically update the POA&M file (updated_poam.json), tracking remediation progress for identified vulnerabilities.
 
 ## How to Use
 1. **Clone the repository**:
