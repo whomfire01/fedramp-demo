@@ -41,6 +41,7 @@ By automating these processes based on vulnerability scans, I'm considering how 
    - `compliance_report.txt`: A summary report detailing the status of controls.
    - `generated_compliance_oscal.json`: Contains OSCAL JSON data for compliance controls.
    - `updated_poam.json`: A POA&M file with updates based on vulnerability scan results.
+   - `vulnerability-scan-results/scan_results.json`: Results from each vulnerability scan.
 
 ## Directory Structure
 
