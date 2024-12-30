@@ -1,6 +1,8 @@
 # FedRAMP OSCAL Demo for IBM Compliance Position
 
-This project is intended to demonstrate Steve Moore's familiarity with OSCAL, JSON, YAML, and Python in the context of automating FedRAMP compliance processes, including generating System Security Plans (SSPs), Plan of Action & Milestones (POA&Ms), and compliance reports.
+I created this project to showcase my skills in automating FedRAMP compliance using OSCAL, JSON, YAML, and Python. At IBM, keeping up with compliance documentation will be a major challenge, so I built tools to automate Security Plans, POA&Ms, and compliance reports, streamlining what could otherwise be time-consuming manual processes.
+ 
+By automating these processes based on vulnerability scans, I'm considering how to make compliance both efficient and accurate. The tools I've developed can automatically update documentation when new vulnerabilities are detected, ensuring everything stays current without manual intervention. My hope is that this work aligns with IBM's cloud security goals and demonstrates my ability to handle complex compliance requirements in large-scale environments. I'm particularly focused on making these tools scalable, so they can adapt as compliance needs grow and change.
 
 ## Files
 
