@@ -58,3 +58,40 @@ This project uses Python for automation. The following Python libraries are requ
 - `yaml` (installable via `pip install pyyaml`)
 
 To run the script, you'll need Python installed on your machine.
+
+## Instructions for Testing
+
+After cloning this repository, you can test the functionality of the Python scripts and validate the generated output files to ensure everything is working correctly.
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/fedramp-oscal-demo.git
+   cd fedramp-oscal-demo
+2. **Install Dependencies**:
+   This project uses **Python** and the **PyYAML** library to handle YAML configuration files. To install dependencies, run:
+   ```bash
+   pip install -r requirements.txt
+(Note: If you don't have a requirements.txt file yet, you can manually install pyyaml via pip install pyyaml.)
+
+3. **Run the Python Script**:
+   The main script **`generate_compliance_oscal.py`** generates the OSCAL JSON file, the compliance report, and updates the POA&M based on vulnerability scan results. To execute the script:
+   ```bash
+   python scripts/generate_compliance_oscal.py
+
+4. **Verify the Generated Files**:
+   After running the script, the following output files will be generated in the **`output/`** directory:
+   - **`generated_compliance_oscal.json`**: Verify that this file contains OSCAL-compliant JSON data for the security controls.
+   - **`compliance_report.txt`**: Review the generated compliance report to ensure it summarizes the status of the key security controls.
+   - **`updated_poam.json`**: Check that this file has been correctly updated based on the example vulnerability scan results, with appropriate remediation status and milestones.
+
+5. **Test POA&M Updates**:
+   To test that the POA&M updates are working correctly:
+   - Open the **`updated_poam.json`** file and verify that the **`control_id`**, **`vulnerability`**, **`risk_level`**, and **`remediation_plan`** fields are properly updated based on the scan results in **`scan_results.json`**.
+   - The POA&M should also reflect any progress made on remediation with milestones (e.g., **“In Progress”** or **“Completed”**).
+   
+   If you're using different **scan results** (e.g., for a different vulnerability), you can replace the sample **`scan_results.json`** file in the **`vulnerability-scan-results/`** folder and rerun the script to see how the POA&M is updated.
+
+6. **Validate OSCAL Compliance**:
+   To validate that the **OSCAL JSON** is correctly formatted and meets **FedRAMP** or general **OSCAL** standards, you can use tools like the [OSCAL Validator](https://csrc.nist.gov/projects/risk-management) or validate manually by checking the structure of the generated JSON.
+
+
