@@ -56,4 +56,4 @@ This project uses Python for automation. The following Python libraries are requ
 - `json` (standard library, no installation needed)
 - `yaml` (installable via `pip install pyyaml`)
 
-To run the script, you need to have Python installed on your machine.
+To run the script, you'll need Python installed on your machine.
