@@ -2,7 +2,9 @@
 
 I created this project to showcase my skills in automating FedRAMP compliance using OSCAL, JSON, YAML, and Python. At IBM, keeping up with compliance documentation will be a major challenge, so I built tools to automate Security Plans, POA&Ms, and compliance reports, streamlining what could otherwise be time-consuming manual processes.
  
-By automating these processes based on vulnerability scans, I'm considering how to make compliance both efficient and accurate. The tools I've developed can automatically update documentation when new vulnerabilities are detected, ensuring everything stays current without manual intervention. My hope is that this work aligns with IBM's cloud security goals and demonstrates my ability to handle complex compliance requirements in large-scale environments. I'm particularly focused on making these tools scalable, so they can adapt as compliance needs grow and change.
+By automating these processes based on vulnerability scans, I'm considering how to make compliance both efficient and accurate. The tools I've developed can automatically update documentation when new vulnerabilities are detected, ensuring everything stays current without manual intervention. 
+
+My hope is that this work aligns with IBM's cloud security goals and demonstrates my ability to handle complex compliance requirements in large-scale environments. I'm particularly focused on making these tools scalable, so they can adapt as our compliance needs grow and change.
 
 ## Files
 
