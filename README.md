@@ -22,7 +22,7 @@ I hope the tools I've built here demonstrate my capability to work with Xacta-li
    - `output/vulnerability-scan-results/scan_results.json`: Example vulnerability scan results in JSON format. Results are used by the script to update the POA&M with remediation status and milestones.
 
 ## Features
-- **OSCAL Generation**: The script automatically generates an OSCAL-compliant JSON file representing security controls, which aligns with standards like FedRAMP and NIST 800-53.
+- **OSCAL Generation**: The script automatically generates an OSCAL-compliant JSON file representing security controls, which aligns with FedRAMP standards (as specified via NIST 800-53).
 - **Compliance Report**: A simple compliance report is generated in text format, summarizing the status of key security controls.
 - **POA&M Update**: The script integrates vulnerability scan results (from scan_results.json) to automatically update the POA&M file (updated_poam.json), tracking remediation progress for identified vulnerabilities.
 
