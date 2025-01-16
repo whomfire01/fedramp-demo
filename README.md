@@ -1,10 +1,10 @@
 # FedRAMP Automation Demo for IBM Compliance Role
 
-This project demonstrates how to automate FedRAMP compliance processes. Drawing from IBM's use of Xacta for compliance documentation, I developed tools that mirror these automated workflows - generating System Security Plans, POA&Ms, and compliance reports without manual intervention.
+This project demonstrates how to automate FedRAMP compliance processes. Drawing from IBM's use of Xacta for compliance documentation, I developed tools that use OSCAL to mirror Xacta's automated workflows - generating System Security Plans, POA&Ms, and compliance reports without manual intervention.
 
-System vulnerabilities evolve constantly, requiring frequent updates to compliance documentation. My project addresses this by automating documentation updates based on vulnerability scans, making compliance management both efficient and precise. The tools are particularly effective at automating POA&M updates, creating a seamless connection between vulnerability management and compliance reporting.
+System vulnerabilities evolve constantly, requiring frequent updates to compliance documentation. This project addresses that need by automating documentation updates based on vulnerability scans, making compliance management both efficient and precise. The tools are particularly effective at automating POA&M updates, creating a tight connection between vulnerability management and compliance reporting.
 
-Looking forward, Xacta workflows that incorporate OSCAL have significant potential for automating compliance in complex environments, especially those managing multiple Cloud Service Offerings within a single boundary. This standardized approach to security controls opens up new possibilities for efficient compliance automation.
+Looking forward, Xacta workflows that incorporate OSCAL have significant potential for automating compliance in complex environments, especially to manage multiple CSOs within a single boundary. This standardized approach to security controls opens up new possibilities for streamlining compliance authorization and continuous monitoring.
 
 – Steve Moore
 
