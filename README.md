@@ -1,4 +1,4 @@
-# FedRAMP Demo for IBM Compliance Position: /n Automating OSCAL-Based Documentation and Workflows
+# FedRAMP Demo for IBM Compliance Position: Automating OSCAL-Based Docs and Workflows
 
 This project demonstrates how to automate FedRAMP compliance processes. Drawing from IBM's use of Xacta for compliance documentation, I developed tools that mirror these automated workflows - generating System Security Plans, POA&Ms, and compliance reports without manual intervention.
 
