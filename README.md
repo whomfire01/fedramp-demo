@@ -2,7 +2,7 @@
 
 This project demonstrates how to automate FedRAMP compliance processes. Drawing from IBM's use of Xacta for compliance documentation, I developed tools that use OSCAL to mirror Xacta's automated workflows - generating System Security Plans, POA&Ms, and compliance reports without manual intervention.
 
-System vulnerabilities evolve constantly, requiring frequent updates to compliance documentation. This project addresses that need by automating documentation updates based on vulnerability scans, making compliance management both efficient and precise. The tools are particularly effective at automating POA&M updates, creating a tight connection between vulnerability management and compliance reporting.
+System vulnerabilities evolve constantly, requiring frequent updates to compliance documentation. This project addresses that need by automating documentation updates based on vulnerability scans, making compliance management both efficient and precise. The tools are particularly effective at automating POA&M updates, creating a tight connection between vulnerability  scan results and updates to compliance docs.
 
 Looking forward, Xacta workflows that incorporate OSCAL have significant potential for automating compliance in complex environments, especially to manage multiple CSOs within a single boundary. This standardized approach to security controls opens up new possibilities for streamlining compliance authorization and continuous monitoring.
 
