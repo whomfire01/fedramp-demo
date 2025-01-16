@@ -1,11 +1,11 @@
 # FedRAMP Demo for IBM Compliance Position: 
 ## Automating OSCAL-Based Documentation and Workflows
 
-This project demonstrates my ability to automate FedRAMP compliance processes, including the generation of System Security Plans (SSPs), Plan of Action & Milestones (POA&Ms), and compliance reports. Recognizing that IBM uses Xacta for managing compliance documentation, I developed tools that simulate the automated workflows supported by Xacta. These tools streamline compliance tasks and ensure documentation remains accurate and up to date without manual intervention.
+This project demonstrates how to automate FedRAMP compliance processes. Drawing from IBM's use of Xacta for compliance documentation, I developed tools that mirror these automated workflows - generating System Security Plans, POA&Ms, and compliance reports without manual intervention.
 
-The dynamic nature of system vulnerabilities means that FedRAMP compliance documentation requires frequent updates. This project focuses on automating the creation and updating of documentation based on vulnerability scans, showcasing how compliance efforts can be both efficient and precise. Specifically, it highlights workflows that automate POA&M updates, ensuring seamless integration of vulnerability management with compliance reporting.
+System vulnerabilities evolve constantly, requiring frequent updates to compliance documentation. My project addresses this by automating documentation updates based on vulnerability scans, making compliance management both efficient and precise. The tools are particularly effective at automating POA&M updates, creating a seamless connection between vulnerability management and compliance reporting.
 
-Xacta workflows that leverage OSCAL (Open Security Controls Assessment Language) have the potential to automate compliance efforts in complex environments, particularly those with multiple Cloud Service Offerings (CSOs) within a single boundary. 
+Looking forward, Xacta workflows that incorporate OSCAL have significant potential for automating compliance in complex environments, especially those managing multiple Cloud Service Offerings within a single boundary. This standardized approach to security controls opens up new possibilities for efficient compliance automation.
 
 – Steve Moore
 
